@@ -1,0 +1,20 @@
+Setting up local repository 
+
+1. Create/Initilize a local repository with "git init" command
+2. Observe the local repository by "ls -la" (You will be able to see .git folder which is called a local repository)
+3. Create some source code. Ex: vi login.java
+4. Adding the file to the stage
+	$ git add login.java
+5. Committing the file to the local repository
+	$ git commit login.java -m "login module code"
+6. check the log of login.java using the "log" command
+	$ git log login.java
+
+
+
+1. To get the file/content from git hub.
+	$ git clone https://github.com/stvvngrgupta/Devops
+
+2. To check the status of files
+	$ git status (Will show the files which are added and commited)
+
