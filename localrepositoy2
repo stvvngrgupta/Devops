@@ -5,7 +5,7 @@ Setting up local repository
 3. Create some source code. Ex: vi login.java
 4. Adding the file to the stage
 	$ git add login.java
-5. Committing the file to the local repository
+3. Committing the file to the local repository
 	$ git commit login.java -m "login module code"
 6. check the log of login.java using the "log" command
 	$ git log login.java
